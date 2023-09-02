@@ -2,14 +2,15 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
+}
+/*------------------------------------------------- Head------------------------------------*/
 .head-container{
     background-color: #183D3D;
     height: 500px;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 80px;
 }
 .navbar{
     display: flex;
@@ -41,6 +42,7 @@ a, p{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
 }
 
 h1{
@@ -64,7 +66,103 @@ img{
 }
 
 .sign-up{
-    padding: 8px 16px;
-    border-radius: 5px;
-    background-color: lightblue;
+    padding: 4px 24px;
+    border-radius: 8px;
+    background-color: #4682A9;
+    color: white;
+    font-weight: bold;
+}
+/*-----------------------------------------------main-------------------------------------*/
+.my-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 50px;
+}
+
+.header-information h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #183D3D;
+}
+
+.project{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project img{
+    width: 150px;
+    padding: 8px 32px;
+    height: auto;
+    border: 4px solid lightblue;    
+}
+
+.description{
+    width: 230px;
+}
+
+.description p{
+    color: grey;
+    text-align: center;
+}
+/*-------------------------------------------quote section-------------------------------------*/
+.quote-section{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    background-color: gainsboro;
+}
+
+.quote{
+    width: 800px;
+    margin-top: 20px;
+}
+
+.quote h2{
+    font-size: 32px;
+    color: gray;
+    font-style: italic;
+    font-weight: normal;
+
+}
+
+.author{
+    width: 500px;
+    align-self: flex-end;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+/*-------------------------------------------------contact----------------------------------------*/
+.contact{
+    display: flex;
+    width: 60%;
+    height: 120px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5B9A8B;
+    margin: 80px auto;
+    border-radius: 15px;
+
+}
+.suggest h3{
+    margin: 5px 0;
+    font-size: 24px;
+    color: white;
+}
+
+/*---------------------------------------------Footer---------------------------------------*/
+.footer{
+    height: 50px;
+    background-color: #7EAA92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
